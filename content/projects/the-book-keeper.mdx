@@ -1,0 +1,100 @@
+---
+  title: The Book Keeper
+  summary: A modern, professional book tracking and discovery application built with React and Firebase. Track your reading journey, discover new books, and manage your personal library with ease.
+  image: /images/projects/my-anime.png
+  author: 'Jacob Ols'
+  publishedAt: '2024-12-15'
+---
+
+The Book Keeper is a modern, professional book tracking and discovery application built with React and Firebase. This full-stack application allows users to discover new books, manage their personal library, and track their reading journey with a beautiful, responsive interface.
+
+## Live Application
+
+[The Book Keeper App](https://the-book-keeper-53f36.web.app/)
+
+[GitHub Repository](https://github.com/OlsJacob-FS/theBookKeeper)
+
+## Features
+
+- **Secure Authentication**: Google OAuth integration with Firebase Auth for secure user authentication and session management.
+
+- **Book Discovery**: Browse books by genre (Fantasy, Romance, Mystery, Horror, Manga) with Google Books API integration, featuring curated book recommendations.
+
+- **Advanced Search**: Find books by title, author, or genre with intelligent caching for improved performance and faster search results.
+
+- **Personal Bookshelf**: Organize books into custom shelves including "Want to Read", "Currently Reading", "Have Read", and "Favorites" with full CRUD operations.
+
+- **Book Information**: Detailed book pages with comprehensive information including descriptions, ratings, publication details, and direct links to purchase or read.
+
+- **User Profile Management**: Personalized user profiles with reading statistics and preferences.
+
+- **Responsive Design**: Beautiful, modern UI that works seamlessly across all devices with dark/light theme support.
+
+- **Performance Optimization**: Intelligent caching system, concurrent API calls, and optimized loading states for smooth user experience.
+
+## Technologies
+
+### Frontend
+- **React 18**: Modern React with hooks, context, and functional components
+- **React Router**: Client-side routing with protected routes
+- **Tailwind CSS**: Utility-first CSS framework for responsive design
+- **React Icons**: Comprehensive icon library for UI elements
+- **Axios**: HTTP client for API requests with error handling
+- **React Helmet Async**: SEO optimization and meta tag management
+- **Vite**: Fast build tool and development server
+
+### Backend
+- **Firebase Functions**: Serverless backend with Express.js
+- **Firebase Admin SDK**: Server-side Firebase integration
+- **Express.js**: Web framework for API endpoints
+- **CORS**: Cross-origin resource sharing configuration
+- **Firebase Auth**: User authentication and authorization
+- **Firestore**: NoSQL database for user data and book collections
+
+### External APIs
+- **Google Books API**: Book data, search functionality, and book information
+- **Google OAuth**: Secure user authentication
+- **Firebase Hosting**: Application deployment and hosting
+
+### Development Tools
+- **ESLint**: Code linting and formatting
+- **PostCSS**: CSS processing and optimization
+- **Error Boundaries**: Graceful error handling throughout the application
+- **Local Storage**: Client-side caching for improved performance
+
+## Key Features in Detail
+
+### Authentication System
+- Google OAuth integration with Firebase Auth
+- Secure token management and session persistence
+- Automatic logout on token expiry
+- Protected routes and user state management
+
+### Book Management
+- Genre-based book discovery with curated collections
+- Advanced search with intelligent caching
+- Personal bookshelf organization with custom shelves
+- Reading progress tracking and book status management
+- Book information pages with comprehensive details
+
+### User Experience
+- Responsive design optimized for all devices
+- Smooth animations and micro-interactions
+- Professional loading states and error handling
+- Dark/light theme support
+- SEO optimization with meta tags and structured data
+
+## Architecture
+
+The application follows a modern, scalable architecture:
+
+- **Frontend**: React SPA with component-based architecture
+- **Backend**: Firebase Functions with Express.js for API endpoints
+- **Database**: Firestore for user data and book collections
+- **Authentication**: Firebase Auth with Google OAuth
+- **External APIs**: Google Books API for book data and search
+- **Deployment**: Firebase Hosting for frontend, Firebase Functions for backend
+
+## Conclusion
+
+The Book Keeper represents a comprehensive full-stack application that demonstrates modern web development practices. It combines React's powerful frontend capabilities with Firebase's robust backend services to create a professional book tracking platform. The application showcases advanced features like OAuth authentication, external API integration, responsive design, and performance optimization, making it an excellent example of a production-ready web application.
